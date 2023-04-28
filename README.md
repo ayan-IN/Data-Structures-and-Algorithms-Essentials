@@ -8,5 +8,5 @@
 
 Master core computer science concepts by mastering data structures, algorithms & problem solving using C++.
 
-Besides this, the repository brings out a collection of good practice problem from different platforms to help you with clear concepts and their usage.
+Besides this, the repository brings out a collection of good practice problems from different platforms to help you with clear concepts and their usages.
 
