@@ -1,5 +1,8 @@
 //* @Desc - Selection Sort -> Repeatedly find the minimum element from the unsorted part and putting it at the beginning.
-//? @Time Complexity -> O(n^2)
+//? @Time Complexity:
+//!    Best --> Ω(n^2)
+//!    Avg --> ⍬(n^2)
+//!    Worst --> O(n^2)
 //? @Space Complexity -> O(1)
 
 #include <iostream>

@@ -1,5 +1,8 @@
 //* @Desc - Insertion Sort -> Similar to playing cards in our hands. Insert the card in its correct position in a sorted part.
-//? @Time Complexity -> O(n^2) 
+//? @Time Complexity:
+//!    Best --> Ω(n)
+//!    Avg --> ⍬(n^2)
+//!    Worst --> O(n^2)
 //? @Space Complexity -> O(1)
 
 #include <iostream>

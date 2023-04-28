@@ -1,5 +1,8 @@
 //* @Desc - Bubble Sort -> Take larger element to the end by repeatedly swapping the adjacent elements.
-//? @Time Complexity -> O(n^2) [Worst Case Time Complexity]
+//? @Time Complexity:
+//!    Best --> Ω(n)
+//!    Avg --> ⍬(n^2)
+//!    Worst --> O(n^2)
 //? @Space Complexity -> O(1)
 
 #include <iostream>
