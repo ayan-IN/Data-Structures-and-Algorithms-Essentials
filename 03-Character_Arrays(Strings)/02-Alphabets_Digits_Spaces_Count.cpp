@@ -42,6 +42,7 @@ int main()
         sentence[len++] = temp;
         temp = cin.get();
     }
+    sentence[len] = '\0';
     countDigitsAndSpaces(sentence);
     return 0;
 }
