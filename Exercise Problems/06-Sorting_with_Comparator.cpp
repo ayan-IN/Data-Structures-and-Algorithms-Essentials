@@ -50,8 +50,10 @@ int main()
 {
     system("clear");
     vector<int> arr{111, 33, 5, 7, 29}, result;
+    cout << "Original Arrangement : \n";
     printVector(arr, arr.size());
     result = sortingWithComparator(arr, true);
+    cout << "After Sorting : \n";
     printVector(result, result.size());
     return 0;
 }
