@@ -60,6 +60,6 @@ int main()
     string s;
     cout << "Enter travel string : ";
     cin >> s;
-    cout << "Shortest Path from origin : " << shortestPath(s);
+    cout << "Shortest Path from origin point : " << shortestPath(s);
     return 0;
 }
