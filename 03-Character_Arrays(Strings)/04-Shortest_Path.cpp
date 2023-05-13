@@ -1,5 +1,5 @@
 #include <iostream>
-#include<string>
+#include <string>
 using namespace std;
 
 //* Function to find the shortest path
@@ -29,11 +29,13 @@ string shortestPath(string &s)
         }
         index++;
     }
-    if(y>=0)
+    if (y >= 0)
     {
-        while(y--)
+        while (y--)
             result += 'N';
-    }else{
+    }
+    else
+    {
         y = -1 * y;
         while (y--)
             result += 'S';
@@ -58,6 +60,6 @@ int main()
     string s;
     cout << "Enter travel string : ";
     cin >> s;
-    cout << shortestPath(s);
+    cout << "Shortest Path from origin : " << shortestPath(s);
     return 0;
 }
